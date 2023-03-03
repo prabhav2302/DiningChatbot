@@ -2,5 +2,5 @@ Yelp API Command:
 
 curl --request GET \
      --url 'https://api.yelp.com/v3/businesses/search?sort_by=best_match&limit=20' \
-     --header 'Authorization: Bearer l_qf-DK78SWib4S8SFI8KzFpXTQTna3KSCC2jkSBKpB3vpD8MWN2tDU3bQM0hljRim7V36C0gIAU1R1woCSRiQfIALefDDIfFT-9t6PKMk9LzB_VKpU6kIgV-2L6Y3Yx' \
+     --header 'Authorization:' \
      --header 'accept: application/json' -o output.json
